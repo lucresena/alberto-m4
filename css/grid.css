@@ -1,0 +1,2572 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Montserrat:wght@200&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(../img/pattern.jpg);
+}
+
+.header{
+	grid-area: header;
+}
+
+.navbar{
+	grid-area: navbar;
+	background-color: #BF3A3E;
+}
+
+.aside{
+	grid-area: sidebar;
+}
+
+.main{
+	grid-area: main;
+	background-color: #faffd4;
+	background: url(../img/planta.png) no-repeat right bottom, url(../img/albert.png) no-repeat left top, url(../img/fondo-main.png);
+}
+
+.contenido{
+	grid-area: contenido;
+	background-color: #f7d794;
+}
+
+.footer{
+	grid-area: footer;
+	background-color: #43a1f5;
+}
+
+#grid_contenedor{
+	width: 95%;
+	display: grid;
+	gap: 5px;
+	grid-template-columns: 400px 300px 700px;
+	grid-template-rows: 150px 60px 500px 300px 60px;
+	grid-template-areas: 
+	"header		header		header" 
+	"navbar		navbar		navbar" 
+	"main		main		sidebar" 
+	"contenido	contenido	contenido" 
+	"footer		footer		footer";
+
+}
+
+header{
+	background-image: url(../img/reflejo.png);
+	background-size: cover;
+}
+
+/*INDEX*/
+/*INDEX*/
+/*INDEX*/
+
+aside{
+	background-image: url(../img/lya.jpg);
+	background-size: cover;
+}
+
+section{
+	background-image: url(../img/fideos.jpg);
+	background-size: cover;
+}
+
+#nombre img{
+	display: block;
+	margin: auto;
+}
+
+#menu{
+	text-align: center;
+	padding-top: 18px;
+}
+
+#menu li{
+	display: inline;
+}
+
+#menu li a{
+	text-decoration: none;
+	padding: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	color: #faffd4;
+}
+
+#menu a:hover{
+	border:none 0px #000000;
+	border-radius: 21px;
+	background-color: rgb(67, 161, 245, 0.9);
+}
+
+.titulo{
+	text-align: center;
+	padding-top: 26%;
+	text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+}
+
+#clases{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding-top: 32%;
+}
+
+#clases a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #BF3A3E;
+	background-color: #faffd4;
+	border:none 0px #000000;
+	border-radius: 21px;
+	font-size: 1.4em;
+	padding: 6px;
+}
+
+.titulo1{
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #BF3A3E;
+	font-size: 3em;
+}
+
+.titulo2{
+	font-family: 'Montserrat', sans-serif;
+	color: #BF3A3E;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.copa{
+	text-align: center;
+	padding-top: 5%;
+}
+
+.texto1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #faffd4;
+	font-size: 1.6em;
+}
+
+.texto2{
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #faffd4;
+	font-size: 1.8em;
+}
+
+#boton{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+}
+
+#boton a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #BF3A3E;
+	background-color: #faffd4;
+	border:none 0px #000000;
+	border-radius: 21px;
+	padding: 6px;
+}
+
+.up{
+	border:none 0px #000000;
+	border-radius: 8px;
+	padding-top: 7px;
+	padding-left: 10px;
+	float: left;
+}
+
+#lucre{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 1.2em;
+	margin-top: 21px;
+}
+
+#lucre a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #faffd4;
+	padding: 5px;
+}
+
+#lucre a:hover{
+	border:none 0px #000000;
+	border-radius: 21px;
+	background-color: rgb(191, 58, 62);
+}
+
+.disney{
+	float: right;
+	margin-top: -1.5%;
+	margin-right: 10px;
+}
+
+/*CONTACTO*/
+/*CONTACTO*/
+/*CONTACTO*/
+
+.header{
+	grid-area: header;
+}
+
+.navbar{
+	grid-area: navbar;
+	background-color: #BF3A3E;
+}
+
+.sidebar-contacto{
+	grid-area: sidebar-contacto;
+}
+
+.main-contacto{
+	grid-area: main-contacto;
+	background: url(../img/albert-contacto.png) no-repeat left bottom, url(../img/burbujas.png) no-repeat right top, url(../img/fondo-main.png);
+}
+
+.footer{
+	grid-area: footer;
+	background-color: #43a1f5;
+}
+
+#grid_contenedor2{
+	width: 95%;
+	display: grid;
+	gap: 5px;
+	grid-template-columns: 400px 300px 700px;
+	grid-template-rows: 150px 60px 500px 60px;
+	grid-template-areas: 
+	"header				header			header" 
+	"navbar				navbar			navbar" 
+	"main-contacto		main-contacto	sidebar-contacto"
+	"footer				footer			footer";
+
+}
+
+.titulo-contacto{
+	text-align: center;
+	padding-top: 18%;
+	text-shadow: 4px 1px 3px rgba(150, 150, 150, 1); 
+}
+
+#formulario{
+	width: 450px;
+	margin: auto;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 20px;
+	border:none 0px #000000;
+	border-radius: 20px;
+	padding: 10px 20px;
+	box-shadow: 14px 13px 11px 3px rgba(0,0,0,0.62);
+	margin-top: 50px;
+}
+
+.contacto{
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #faffd4;
+	text-align: center;
+}
+
+.subtitulo{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #faffd4;
+	font-size: 1.2em;
+}
+
+.caja{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.caja2{
+	max-width: 100%;
+	min-height: 100px;
+	width: 100%;
+	height: 100px;
+	margin-bottom: 8px;
+}
+
+.caja3{
+	width: 67px;
+	padding: 3px;
+	display: block;
+	margin: auto;
+}
+
+/*CLASES*/
+/*CLASES*/
+/*CLASES*/
+
+.header{
+	grid-area: header;
+}
+
+.navbar{
+	grid-area: navbar;
+	background-color: #BF3A3E;
+}
+
+.sidebar-clases{
+	grid-area: sidebar-clases;
+}
+
+.main-clases{
+	grid-area: main-clases;
+	background-image: url(../img/salto.jpg);
+	background-size: cover;
+}
+
+.footer{
+	grid-area: footer;
+	background-color: #43a1f5;
+}
+
+#grid_contenedor3{
+	width: 95%;
+	display: grid;
+	gap: 5px;
+	grid-template-columns: 400px 300px 700px;
+	grid-template-rows: 150px 60px 500px 60px;
+	grid-template-areas: 
+	"header				header			header" 
+	"navbar				navbar			navbar" 
+	"main-clases		main-clases		main-clases"
+	"footer				footer			footer";
+
+}
+
+.info{
+	width: 450px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 20px;
+	border:none 0px #000000;
+	border-radius: 20px;
+	box-shadow: 14px 13px 11px 3px rgba(0,0,0,0.62);
+	margin-top: 6%;
+	margin-left: 10%;
+	float: left;
+}
+
+.staff{
+	font-family: 'Montserrat', sans-serif;
+	float: right;
+	margin-top: 16%;
+	margin-right: 15%;
+}
+
+.staff a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #BF3A3E;
+	background-color: #faffd4;
+	border:none 0px #000000;
+	border-radius: 21px;
+	font-size: 1.4em;
+	padding: 8px;
+}
+
+/*STAFF*/
+/*STAFF*/
+/*STAFF*/
+
+.header{
+	grid-area: header;
+}
+
+.navbar{
+	grid-area: navbar;
+	background-color: #BF3A3E;
+}
+
+.main-staff{
+	grid-area: main-staff;
+	background-color: #faffd4;
+}
+
+.widget-1{
+	grid-area: widget-1;
+	background-color: #ffeaa7;
+}
+
+.widget-2{
+	grid-area: widget-2;
+	background-color: #ffeaa7;
+}
+
+.widget-3{
+	grid-area: widget-3;
+	background-color: #ffeaa7;
+}
+
+.widget-4{
+	grid-area: widget-4;
+	background-color: #ffeaa7;
+}
+
+.contenido-plus{
+	grid-area: contenido-plus;
+	background-image: url(../img/copa-portorosso.png);
+	background-size: cover;
+}
+
+.footer{
+	grid-area: footer;
+	background-color: #43a1f5;
+}
+
+#grid_contenedor4{
+	width: 95%;
+	display: grid;
+	gap: 5px;
+	grid-template-columns: 460px 230px 230px 460px;
+	grid-template-rows: 150px 60px 100px 410px 410px 300px 60px;
+	grid-template-areas: 
+	"header				header 				header				header" 
+	"navbar				navbar				navbar				navbar" 
+	"main-staff			main-staff			main-staff			main-staff"
+	"widget-1			widget-1			widget-2			widget-2"
+	"widget-3			widget-3			widget-4			widget-4"
+	"contenido-plus		contenido-plus		contenido-plus		contenido-plus"
+	"footer				footer				footer				footer";
+
+}
+
+.profes{
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+	color: #BF3A3E;
+	font-size: 1.8em;
+	text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	margin-top: 2%;
+}
+
+.titulo-profe{
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+	color: #BF3A3E;
+	font-size: 1.2em;
+}
+
+.subtitulo-profe{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	color: #BF3A3E;
+	font-size: 1.1em;
+	margin-bottom: 8px;
+}
+
+.foto-profe{
+	display: block;
+	margin: auto;
+	border:none 0px #000000;
+	border-radius: 20px;
+	box-shadow: 14px 13px 11px 3px rgba(0,0,0,0.62);
+}
+
+.boton-inscipcion{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.boton-inscipcion a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #BF3A3E;
+	background-color: #faffd4;
+	border:none 0px #000000;
+	border-radius: 21px;
+	padding: 8px;
+}
+
+.texto3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #faffd4;
+	font-size: 1.6em;
+	text-align: center;
+	margin-top: 8%;
+	margin-bottom: 22px;
+}
+
+/* 1200 */
+/* 1200 */
+/* 1200 */
+/* 1200 */
+/* 1200 */
+/* 1200 */
+/* 1200 */
+
+@media (min-width: 1200px) and (max-width: 1399px){
+	body{
+		background-image: url(../img/pattern.jpg);
+	}
+
+	/*INDEX*/
+	/*INDEX*/
+	/*INDEX*/
+
+	.header{
+		grid-area: header;
+	}
+
+	.navbar{
+		grid-area: navbar;
+		background-color: #BF3A3E;
+	}
+
+	.aside{
+		grid-area: sidebar;
+	}
+
+	.main{
+		grid-area: main;
+		background-color: #faffd4;
+		background: url(../img/planta.png) no-repeat right bottom, url(../img/albert.png) no-repeat left top, url(../img/fondo-main.png);
+	}
+
+	.contenido{
+		grid-area: contenido;
+		background-color: #f7d794;
+	}
+
+	.footer{
+		grid-area: footer;
+		background-color: #43a1f5;
+	}
+
+	#grid_contenedor{
+		width: 95%;
+		display: grid;
+		gap: 5px;
+		grid-template-columns: 400px 200px 600px;
+		grid-template-rows: 150px 60px 500px 300px 60px;
+		grid-template-areas: 
+		"header		header		header" 
+		"navbar		navbar		navbar" 
+		"main		main		sidebar" 
+		"contenido	contenido	contenido" 
+		"footer		footer		footer";
+
+	}
+
+	header{
+		background-image: url(../img/reflejo.png);
+		background-size: cover;
+	}
+
+	aside{
+		background-image: url(../img/lya.jpg);
+		background-size: cover;
+	}
+
+	section{
+		background-image: url(../img/fideos.jpg);
+		background-size: cover;
+	}
+
+	#nombre img{
+		display: block;
+		margin: auto;
+	}
+
+	#menu{
+		text-align: center;
+		padding-top: 18px;
+	}
+
+	#menu li{
+		display: inline;
+	}
+
+	#menu li a{
+		text-decoration: none;
+		padding: 10px;
+		margin-top: 10px;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+		color: #faffd4;
+	}
+
+	#menu a:hover{
+		border:none 0px #000000;
+		border-radius: 21px;
+		background-color: rgb(67, 161, 245, 0.9);
+	}
+
+	.titulo{
+		text-align: center;
+		padding-top: 26%;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	#clases{
+		font-family: 'Montserrat', sans-serif;
+		padding-left: 30%;
+		padding-top: 40%;
+	}
+
+	#clases a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #BF3A3E;
+		background-color: #faffd4;
+		border:none 0px #000000;
+		border-radius: 21px;
+		font-size: 1.4em;
+		padding: 6px;
+	}
+
+	.titulo1{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		font-size: 3em;
+	}
+
+	.titulo2{
+		font-family: 'Montserrat', sans-serif;
+		color: #BF3A3E;
+		font-weight: bold;
+		font-size: 2em;
+	}
+
+	.copa{
+		text-align: center;
+		padding-top: 7%;
+	}
+
+	.texto1{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #faffd4;
+		font-size: 1.6em;
+	}
+
+	.texto2{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #faffd4;
+		font-size: 1.8em;
+	}
+
+	#boton{
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.5em;
+	}
+
+	#boton a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #BF3A3E;
+		background-color: #faffd4;
+		border:none 0px #000000;
+		border-radius: 21px;
+		padding: 6px;
+	}
+
+	.up{
+		border:none 0px #000000;
+		border-radius: 8px;
+		padding-top: 7px;
+		padding-left: 10px;
+		float: left;
+	}
+
+	#lucre{
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		font-size: 1.2em;
+		margin-top: 21px;
+	}
+
+	#lucre a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #faffd4;
+		padding: 5px;
+	}
+
+	#lucre a:hover{
+		border:none 0px #000000;
+		border-radius: 21px;
+		background-color: rgb(191, 58, 62);
+	}
+
+	#disney{
+		float: right;
+		margin-top: -1.5%;
+		margin-right: 10px;
+	}
+
+	/*CONTACTO*/
+	/*CONTACTO*/
+	/*CONTACTO*/
+
+	.header{
+		grid-area: header;
+	}
+
+	.navbar{
+		grid-area: navbar;
+		background-color: #BF3A3E;
+	}
+
+	.sidebar-contacto{
+		grid-area: sidebar-contacto;
+	}
+
+	.main-contacto{
+		grid-area: main-contacto;
+		background: url(../img/albert-contacto.png) no-repeat left bottom, url(../img/burbujas.png) no-repeat right top, url(../img/fondo-main.png);
+	}
+
+	.footer{
+		grid-area: footer;
+		background-color: #43a1f5;
+	}
+
+	#grid_contenedor2{
+		width: 95%;
+		display: grid;
+		gap: 5px;
+		grid-template-columns: 400px 200px 600px;
+		grid-template-rows: 150px 60px 500px 60px;
+		grid-template-areas: 
+		"header				header			header" 
+		"navbar				navbar			navbar" 
+		"main-contacto		main-contacto	sidebar-contacto"
+		"footer				footer			footer";
+
+	}
+
+	.titulo-contacto{
+		text-align: center;
+		padding-top: 18%;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	.titulo1-contacto{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		font-size: 3em;
+	}
+
+	.titulo2-contacto{
+		font-family: 'Montserrat', sans-serif;
+		color: #BF3A3E;
+		font-weight: bold;
+		font-size: 2em;
+	}
+
+	#formulario{
+		width: 450px;
+		margin: auto;
+		background: rgba(0, 0, 0, 0.4);
+		padding: 20px;
+		border:none 0px #000000;
+		border-radius: 20px;
+		padding: 10px 20px;
+		box-shadow: 14px 13px 11px 3px rgba(0,0,0,0.62);
+		margin-top: 8%;
+	}
+
+	.contacto{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #faffd4;
+		text-align: center;
+	}
+
+	.subtitulo{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #faffd4;
+		font-size: 1.2em;
+	}
+
+	.caja{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.caja2{
+		max-width: 100%;
+		min-height: 100px;
+		width: 100%;
+		height: 100px;
+		margin-bottom: 8px;
+	}
+
+	.caja3{
+		width: 67px;
+		padding: 3px;
+		display: block;
+		margin: auto;
+	}
+
+	/*CLASES*/
+	/*CLASES*/
+	/*CLASES*/
+
+	.header{
+		grid-area: header;
+	}
+
+	.navbar{
+		grid-area: navbar;
+		background-color: #BF3A3E;
+	}
+
+	.sidebar-clases{
+		grid-area: sidebar-clases;
+	}
+
+	.main-clases{
+		grid-area: main-clases;
+		background-image: url(../img/salto.jpg);
+		background-size: cover;
+	}
+
+	.footer{
+		grid-area: footer;
+		background-color: #43a1f5;
+	}
+
+	#grid_contenedor3{
+		width: 95%;
+		display: grid;
+		gap: 5px;
+		grid-template-columns: 400px 200px 600px;
+		grid-template-rows: 150px 60px 500px 60px;
+		grid-template-areas: 
+		"header				header			header" 
+		"navbar				navbar			navbar" 
+		"main-clases		main-clases		main-clases"
+		"footer				footer			footer";
+
+	}
+
+	.info{
+		width: 450px;
+		background: rgba(0, 0, 0, 0.4);
+		padding: 20px;
+		border:none 0px #000000;
+		border-radius: 20px;
+		box-shadow: 14px 13px 11px 3px rgba(0,0,0,0.62);
+		margin-top: 6%;
+		margin-left: 10%;
+		float: left;
+	}
+
+	.staff{
+		font-family: 'Montserrat', sans-serif;
+		float: right;
+		margin-top: 20%;
+		margin-right: 15%;
+	}
+
+	.staff a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #BF3A3E;
+		background-color: #faffd4;
+		border:none 0px #000000;
+		border-radius: 21px;
+		font-size: 1.4em;
+		padding: 8px;
+	}
+
+	/*STAFF*/
+	/*STAFF*/
+	/*STAFF*/
+
+	.header{
+		grid-area: header;
+	}
+
+	.navbar{
+		grid-area: navbar;
+		background-color: #BF3A3E;
+	}
+
+	.main-staff{
+		grid-area: main-staff;
+		background-color: #faffd4;
+	}
+
+	.widget-1{
+		grid-area: widget-1;
+		background-color: #ffeaa7;
+	}
+
+	.widget-2{
+		grid-area: widget-2;
+		background-color: #ffeaa7;
+	}
+
+	.widget-3{
+		grid-area: widget-3;
+		background-color: #ffeaa7;
+	}
+
+	.widget-4{
+		grid-area: widget-4;
+		background-color: #ffeaa7;
+	}
+
+	.contenido-plus{
+		grid-area: contenido-plus;
+		background-image: url(../img/copa-portorosso.png);
+		background-size: cover;
+	}
+
+	.footer{
+		grid-area: footer;
+		background-color: #43a1f5;
+	}
+
+	#grid_contenedor4{
+		width: 95%;
+		display: grid;
+		gap: 5px;
+		grid-template-columns: 400px 200px 200px 400px;
+		grid-template-rows: 150px 60px 100px 410px 410px 300px 60px;
+		grid-template-areas: 
+		"header				header				header				header" 
+		"navbar				navbar				navbar				navbar" 
+		"main-staff			main-staff			main-staff			main-staff"
+		"widget-1			widget-1			widget-2			widget-2"
+		"widget-3			widget-3			widget-4			widget-4"
+		"contenido-plus		contenido-plus		contenido-plus		contenido-plus"
+		"footer				footer				footer				footer";
+
+	}
+
+	.profes{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		color: #BF3A3E;
+		font-size: 1.8em;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+		margin-top: 2%;
+	}
+
+	.titulo-profe{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		color: #BF3A3E;
+		font-size: 1.2em;
+	}
+
+	.subtitulo-profe{
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		font-weight: bold;
+		color: #BF3A3E;
+		font-size: 1.1em;
+		margin-bottom: 8px;
+	}
+
+	.foto-profe{
+		display: block;
+		margin: auto;
+		border:none 0px #000000;
+		border-radius: 20px;
+		box-shadow: 14px 13px 11px 3px rgba(0,0,0,0.62);
+	}
+
+	.boton-inscipcion{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	.boton-inscipcion a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #BF3A3E;
+		background-color: #faffd4;
+		border:none 0px #000000;
+		border-radius: 21px;
+		padding: 8px;
+	}
+
+	.texto3{
+			font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #faffd4;
+		font-size: 1.6em;
+		text-align: center;
+		margin-top: 8%;
+		margin-bottom: 22px;
+	}
+}
+
+/* 992 */
+/* 992 */
+/* 992 */
+/* 992 */
+/* 992 */
+/* 992 */
+/* 992 */
+
+@media (min-width: 992px) and (max-width: 1199px){
+	body{
+		background-image: url(../img/pattern.jpg);
+	}
+
+	/*INDEX*/
+	/*INDEX*/
+	/*INDEX*/
+
+	.header{
+		grid-area: header;
+	}
+
+	.navbar{
+		grid-area: navbar;
+		background-color: #BF3A3E;
+	}
+
+	.aside{
+		grid-area: sidebar;
+	}
+
+	.main{
+		grid-area: main;
+		background-color: #faffd4;
+		background: url(../img/planta.png) no-repeat right bottom, url(../img/albert.png) no-repeat left top, url(../img/fondo-main.png);
+	}
+
+	.contenido{
+		grid-area: contenido;
+		background-color: #f7d794;
+	}
+
+	.footer{
+		grid-area: footer;
+		background-color: #43a1f5;
+	}
+
+	#grid_contenedor{ 
+		width: 95%;
+		display: grid;
+		gap: 5px;
+		grid-template-columns: 400px 100px 492px;
+		grid-template-rows: 150px 60px 500px 300px 60px;
+		grid-template-areas: 
+		"header		header		header" 
+		"navbar		navbar		navbar" 
+		"main		main		sidebar" 
+		"contenido	contenido	contenido" 
+		"footer		footer		footer";
+
+	}
+
+	header{
+		background-image: url(../img/reflejo.png);
+		background-size: cover;
+	}
+
+	aside{
+		background-image: url(../img/lya.jpg);
+		background-size: cover;
+	}
+
+	section{
+		background-image: url(../img/fideos.jpg);
+		background-size: cover;
+	}
+
+	#nombre img{
+		display: block;
+		margin: auto;
+	}
+
+	#menu{
+		text-align: center;
+		padding-top: 18px;
+	}
+
+	#menu li{
+		display: inline;
+	}
+
+	#menu li a{
+		text-decoration: none;
+		padding: 10px;
+		margin-top: 10px;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+		color: #faffd4;
+	}
+
+	#menu a:hover{
+		border:none 0px #000000;
+		border-radius: 21px;
+		background-color: rgb(67, 161, 245, 0.9);
+	}
+
+	.titulo{
+		text-align: center;
+		padding-top: 26%;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	#clases{
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		padding-top: 53%;
+	}
+
+	#clases a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #BF3A3E;
+		background-color: #faffd4;
+		border:none 0px #000000;
+		border-radius: 21px;
+		font-size: 1.4em;
+		padding: 6px;
+	}
+
+	.titulo1{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		font-size: 3em;
+	}
+
+	.titulo2{
+		font-family: 'Montserrat', sans-serif;
+		color: #BF3A3E;
+		font-weight: bold;
+		font-size: 2em;
+	}
+
+	.copa{
+		text-align: center;
+		padding-top: 10%;
+	}
+
+	.texto1{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #faffd4;
+		font-size: 1.6em;
+	}
+
+	.texto2{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #faffd4;
+		font-size: 1.8em;
+	}
+
+	#boton{
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.5em;
+	}
+
+	#boton a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #BF3A3E;
+		background-color: #faffd4;
+		border:none 0px #000000;
+		border-radius: 21px;
+		padding: 6px;
+	}
+
+	.up{
+		border:none 0px #000000;
+		border-radius: 8px;
+		padding-top: 7px;
+		padding-left: 10px;
+		float: left;
+	}
+
+	#lucre{
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		font-size: 1.2em;
+		margin-top: 18px;
+	}
+
+	#lucre a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #faffd4;
+		padding: 5px;
+	}
+
+	#lucre a:hover{
+		border:none 0px #000000;
+		border-radius: 21px;
+		background-color: rgb(191, 58, 62);
+	}
+
+	#disney{
+		float: right;
+		margin-top: -1.5%;
+		margin-right: 10px;
+	}
+
+	/*CONTACTO*/
+	/*CONTACTO*/
+	/*CONTACTO*/
+
+	.header{
+		grid-area: header;
+	}
+
+	.navbar{
+		grid-area: navbar;
+		background-color: #BF3A3E;
+	}
+
+	.sidebar-contacto{
+		grid-area: sidebar-contacto;
+	}
+
+	.main-contacto{
+		grid-area: main-contacto;
+		background: url(../img/albert-contacto.png) no-repeat left bottom, url(../img/burbujas.png) no-repeat right top, url(../img/fondo-main.png);
+	}
+
+	.footer{
+		grid-area: footer;
+		background-color: #43a1f5;
+	}
+
+	#grid_contenedor2{
+		width: 95%;
+		display: grid;
+		gap: 5px;
+		grid-template-columns: 400px 100px 492px;
+		grid-template-rows: 150px 60px 500px 60px;
+		grid-template-areas: 
+		"header				header			header" 
+		"navbar				navbar			navbar" 
+		"main-contacto		main-contacto	sidebar-contacto"
+		"footer				footer			footer";
+
+	}
+
+	.titulo-contacto{
+		text-align: center;
+		padding-top: 18%;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	.titulo1-contacto{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		font-size: 3em;
+	}
+
+	.titulo2-contacto{
+		font-family: 'Montserrat', sans-serif;
+		color: #BF3A3E;
+		font-weight: bold;
+		font-size: 2em;
+	}
+
+	#formulario{
+		width: 450px;
+		margin: auto;
+		background: rgba(0, 0, 0, 0.4);
+		padding: 20px;
+		border:none 0px #000000;
+		border-radius: 20px;
+		padding: 10px 20px;
+		box-shadow: 14px 13px 11px 3px rgba(0,0,0,0.62);
+		margin-top: 50px;
+	}
+
+	.contacto{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #faffd4;
+		text-align: center;
+	}
+
+	.subtitulo{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #faffd4;
+		font-size: 1.2em;
+	}
+
+	.caja{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.caja2{
+		max-width: 100%;
+		min-height: 100px;
+		width: 100%;
+		height: 100px;
+		margin-bottom: 8px;
+	}
+
+	.caja3{
+		width: 67px;
+		padding: 3px;
+		display: block;
+		margin: auto;
+	}
+
+	/*CLASES*/
+	/*CLASES*/
+	/*CLASES*/
+
+	.header{
+		grid-area: header;
+	}
+
+	.navbar{
+		grid-area: navbar;
+		background-color: #BF3A3E;
+	}
+
+	.sidebar-clases{
+		grid-area: sidebar-clases;
+	}
+
+	.main-clases{
+		grid-area: main-clases;
+		background-image: url(../img/salto.jpg);
+		background-size: cover;
+	}
+
+	.footer{
+		grid-area: footer;
+		background-color: #43a1f5;
+	}
+
+	#grid_contenedor3{
+		width: 95%;
+		display: grid;
+		gap: 5px;
+		grid-template-columns: 330px 330px 330px;
+		grid-template-rows: 150px 60px 500px 60px;
+		grid-template-areas: 
+		"header				header			header" 
+		"navbar				navbar			navbar" 
+		"main-clases		main-clases		main-clases"
+		"footer				footer			footer";
+
+	}
+
+	.info{
+		width: 450px;
+		background: rgba(0, 0, 0, 0.4);
+		padding: 20px;
+		border:none 0px #000000;
+		border-radius: 20px;
+		box-shadow: 14px 13px 11px 3px rgba(0,0,0,0.62);
+		margin-top: 10%;
+		margin-left: 10%;
+		float: left;
+	}
+
+	.staff{
+		font-family: 'Montserrat', sans-serif;
+		float: right;
+		margin-top: 26%;
+		margin-right: 15%;
+	}
+
+	.staff a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #BF3A3E;
+		background-color: #faffd4;
+		border:none 0px #000000;
+		border-radius: 21px;
+		font-size: 1.4em;
+		padding: 8px;
+	}
+
+	/*STAFF*/
+	/*STAFF*/
+	/*STAFF*/
+
+	.header{
+		grid-area: header;
+	}
+
+	.navbar{
+		grid-area: navbar;
+		background-color: #BF3A3E;
+	}
+
+	.main-staff{
+		grid-area: main-staff;
+		background-color: #faffd4;
+	}
+
+	.widget-1{
+		grid-area: widget-1;
+		background-color: #ffeaa7;
+	}
+
+	.widget-2{
+		grid-area: widget-2;
+		background-color: #ffeaa7;
+	}
+
+	.widget-3{
+		grid-area: widget-3;
+		background-color: #ffeaa7;
+	}
+
+	.widget-4{
+		grid-area: widget-4;
+		background-color: #ffeaa7;
+	}
+
+	.contenido-plus{
+		grid-area: contenido-plus;
+		background-image: url(../img/copa-portorosso.png);
+		background-size: cover;
+	}
+
+	.footer{
+		grid-area: footer;
+		background-color: #43a1f5;
+	}
+
+	#grid_contenedor4{
+		width: 95%;
+		display: grid;
+		gap: 5px;
+		grid-template-columns: 496px 496px;
+		grid-template-rows: 150px 60px 100px 410px 410px 300px 60px;
+		grid-template-areas: 
+		"header				header" 
+		"navbar				navbar" 
+		"main-staff			main-staff"
+		"widget-1			widget-2"
+		"widget-3			widget-4"
+		"contenido-plus		contenido-plus"
+		"footer				footer";
+
+	}
+
+	.profes{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		color: #BF3A3E;
+		font-size: 1.8em;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+		margin-top: 2%;
+	}
+
+	.titulo-profe{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		color: #BF3A3E;
+		font-size: 1.2em;
+		margin-top: 19px;
+	}
+
+	.subtitulo-profe{
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		font-weight: bold;
+		color: #BF3A3E;
+		font-size: 1.1em;
+		margin-bottom: 20px;
+	}
+
+	.foto-profe{
+		display: block;
+		margin: auto;
+		border:none 0px #000000;
+		border-radius: 20px;
+		box-shadow: 14px 13px 11px 3px rgba(0,0,0,0.62);
+		width: 250px;
+		height: 250px;
+	}
+
+	.boton-inscipcion{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	.boton-inscipcion a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #BF3A3E;
+		background-color: #faffd4;
+		border:none 0px #000000;
+		border-radius: 21px;
+		padding: 8px;
+	}
+
+	.texto3{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #faffd4;
+		font-size: 1.6em;
+		text-align: center;
+		margin-top: 12%;
+		margin-bottom: 22px;
+	}
+}
+
+/* 768 */
+/* 768 */
+/* 768 */
+/* 768 */
+/* 768 */
+/* 768 */
+/* 768 */
+
+@media (min-width: 768px) and (max-width: 991px){
+	body{
+		background-image: url(../img/pattern.jpg);
+	}
+
+	/*INDEX*/
+	/*INDEX*/
+	/*INDEX*/
+
+	.header{
+		grid-area: header;
+	}
+
+	.navbar{
+		grid-area: navbar;
+		background-color: #BF3A3E;
+	}
+
+	.aside{
+		grid-area: sidebar;
+	}
+
+	.main{
+		grid-area: main;
+		background-color: #faffd4;
+		background: url(../img/planta.png) no-repeat right bottom, url(../img/fondo-main.png);
+	}
+
+	.contenido{
+		grid-area: contenido;
+		background-color: #f7d794;
+	}
+
+	.footer{
+		grid-area: footer;
+		background-color: #43a1f5;
+	}
+
+	#grid_contenedor{ 
+		width: 95%;
+		display: grid;
+		gap: 5px;
+		grid-template-columns: 384px 384px;
+		grid-template-rows: 150px 60px 500px 300px 60px;
+		grid-template-areas: 
+		"header		header" 
+		"navbar		navbar" 
+		"main		sidebar" 
+		"contenido	contenido" 
+		"footer		footer";
+
+	}
+
+	header{
+		background-image: url(../img/reflejo.png);
+		background-size: cover;
+	}
+
+	aside{
+		background-image: url(../img/lya.jpg);
+		background-size: cover;
+	}
+
+	section{
+		background-image: url(../img/fideos.jpg);
+		background-size: cover;
+	}
+
+	#nombre img{
+		display: block;
+		margin: auto;
+	}
+
+	#menu{
+		text-align: center;
+		padding-top: 18px;
+	}
+
+	#menu li{
+		display: inline;
+	}
+
+	#menu li a{
+		text-decoration: none;
+		padding: 10px;
+		margin-top: 10px;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+		color: #faffd4;
+	}
+
+	#menu a:hover{
+		border:none 0px #000000;
+		border-radius: 21px;
+		background-color: rgb(67, 161, 245, 0.9);
+	}
+
+	.titulo{
+		text-align: center;
+		padding-top: 33%;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	#clases{
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		padding-top: 63%;
+	}
+
+	#clases a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #BF3A3E;
+		background-color: #faffd4;
+		border:none 0px #000000;
+		border-radius: 21px;
+		font-size: 1.4em;
+		padding: 6px;
+	}
+
+	.titulo1{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		font-size: 2.8em;
+	}
+
+	.titulo2{
+		font-family: 'Montserrat', sans-serif;
+		color: #BF3A3E;
+		font-weight: bold;
+		font-size: 1.8em;
+	}
+
+	.copa{
+		text-align: center;
+		padding-top: 10%;
+	}
+
+	.texto1{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #faffd4;
+		font-size: 1.6em;
+	}
+
+	.texto2{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #faffd4;
+		font-size: 1.8em;
+	}
+
+	#boton{
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.5em;
+	}
+
+	#boton a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #BF3A3E;
+		background-color: #faffd4;
+		border:none 0px #000000;
+		border-radius: 21px;
+		padding: 6px;
+	}
+
+	.up{
+		border:none 0px #000000;
+		border-radius: 8px;
+		padding-top: 7px;
+		padding-left: 10px;
+		float: left;
+	}
+
+	#lucre{
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		font-size: 1.2em;
+		margin-top: 18px;
+	}
+
+	#lucre a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #faffd4;
+		padding: 5px;
+	}
+
+	#lucre a:hover{
+		border:none 0px #000000;
+		border-radius: 21px;
+		background-color: rgb(191, 58, 62);
+	}
+
+	#disney{
+		float: right;
+		margin-top: -2%;
+		margin-right: 10px;
+	}
+
+	/*CONTACTO*/
+	/*CONTACTO*/
+	/*CONTACTO*/
+
+	.header{
+		grid-area: header;
+	}
+
+	.navbar{
+		grid-area: navbar;
+		background-color: #BF3A3E;
+	}
+
+	.sidebar-contacto{
+		grid-area: sidebar-contacto;
+	}
+
+	.main-contacto{
+		grid-area: main-contacto;
+		background: url(../img/burbujas.png) no-repeat right top,url(../img/fondo-main.png);
+	}
+
+	.footer{
+		grid-area: footer;
+		background-color: #43a1f5;
+	}
+
+	#grid_contenedor2{
+		width: 95%;
+		display: grid;
+		gap: 5px;
+		grid-template-columns: 384px 384px;
+		grid-template-rows: 150px 60px 500px 60px;
+		grid-template-areas: 
+		"header				header" 
+		"navbar				navbar" 
+		"main-contacto		sidebar-contacto"
+		"footer				footer";
+
+	}
+
+	.titulo-contacto{
+		text-align: center;
+		padding-top: 43%;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	#formulario{
+		width: 280px;
+		margin: auto;
+		background: rgba(0, 0, 0, 0.4);
+		padding: 20px;
+		border:none 0px #000000;
+		border-radius: 20px;
+		padding: 10px 20px;
+		box-shadow: 14px 13px 11px 3px rgba(0,0,0,0.62);
+		margin-top: 50px;
+	}
+
+	.contacto{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #faffd4;
+		text-align: center;
+	}
+
+	.subtitulo{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #faffd4;
+		font-size: 1.2em;
+	}
+
+	.caja{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.caja2{
+		max-width: 100%;
+		min-height: 100px;
+		width: 100%;
+		height: 100px;
+		margin-bottom: 8px;
+	}
+
+	.caja3{
+		width: 67px;
+		padding: 3px;
+		display: block;
+		margin: auto;
+	}
+
+	.titulo1-contacto{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		font-size: 2.2em;
+	}
+
+	.titulo2-contacto{
+		font-family: 'Montserrat', sans-serif;
+		color: #BF3A3E;
+		font-weight: bold;
+		font-size: 1.5em;
+	}
+
+	/*CLASES*/
+	/*CLASES*/
+	/*CLASES*/
+
+	.header{
+		grid-area: header;
+	}
+
+	.navbar{
+		grid-area: navbar;
+		background-color: #BF3A3E;
+	}
+
+	.sidebar-clases{
+		grid-area: sidebar-clases;
+	}
+
+	.main-clases{
+		grid-area: main-clases;
+		background-image: url(../img/salto.jpg);
+		background-size: cover;
+	}
+
+	.footer{
+		grid-area: footer;
+		background-color: #43a1f5;
+	}
+
+	#grid_contenedor3{
+		width: 95%;
+		display: grid;
+		gap: 5px;
+		grid-template-columns: 384px 384px;
+		grid-template-rows: 150px 60px 630px 60px;
+		grid-template-areas: 
+		"header				header" 
+		"navbar				navbar" 
+		"main-clases		main-clases"
+		"footer				footer";
+
+	}
+
+	.info{
+		width: 280px;
+		background: rgba(0, 0, 0, 0.4);
+		padding: 20px;
+		border:none 0px #000000;
+		border-radius: 20px;
+		box-shadow: 14px 13px 11px 3px rgba(0,0,0,0.62);
+		margin-top: 10%;
+		margin-left: 10%;
+		float: left;
+	}
+
+	.staff{
+		font-family: 'Montserrat', sans-serif;
+		float: right;
+		margin-top: 37%;
+		margin-right: 15%;
+	}
+
+	.staff a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #BF3A3E;
+		background-color: #faffd4;
+		border:none 0px #000000;
+		border-radius: 21px;
+		font-size: 1.4em;
+		padding: 8px;
+	}
+
+	/*STAFF*/
+	/*STAFF*/
+	/*STAFF*/
+
+	.header{
+		grid-area: header;
+	}
+
+	.navbar{
+		grid-area: navbar;
+		background-color: #BF3A3E;
+	}
+
+	.main-staff{
+		grid-area: main-staff;
+		background-color: #faffd4;
+	}
+
+	.widget-1{
+		grid-area: widget-1;
+		background-color: #ffeaa7;
+	}
+
+	.widget-2{
+		grid-area: widget-2;
+		background-color: #ffeaa7;
+	}
+
+	.widget-3{
+		grid-area: widget-3;
+		background-color: #ffeaa7;
+	}
+
+	.widget-4{
+		grid-area: widget-4;
+		background-color: #ffeaa7;
+	}
+
+	.contenido-plus{
+		grid-area: contenido-plus;
+		background-image: url(../img/copa-portorosso.png);
+		background-size: cover;
+	}
+
+	.footer{
+		grid-area: footer;
+		background-color: #43a1f5;
+	}
+
+	#grid_contenedor4{
+		width: 95%;
+		display: grid;
+		gap: 0px;
+		grid-template-columns: 384px 384px;
+		grid-template-rows: 150px 60px 100px 410px 410px 300px 60px;
+		grid-template-areas: 
+		"header				header" 
+		"navbar				navbar" 
+		"main-staff			main-staff"
+		"widget-1			widget-2"
+		"widget-3			widget-4"
+		"contenido-plus		contenido-plus"
+		"footer				footer";
+
+	}
+
+	.profes{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		color: #BF3A3E;
+		font-size: 1.8em;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+		margin-top: 2%;
+	}
+
+	.titulo-profe{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		color: #BF3A3E;
+		font-size: 1.2em;
+		margin-top: 22px;
+	}
+
+	.subtitulo-profe{
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		font-weight: bold;
+		color: #BF3A3E;
+		font-size: 1.1em;
+		margin-bottom: 20px;
+	}
+
+	.foto-profe{
+		display: block;
+		margin: auto;
+		border:none 0px #000000;
+		border-radius: 20px;
+		box-shadow: 14px 13px 11px 3px rgba(0,0,0,0.62);
+		width: 250px;
+		height: 250px;
+	}
+
+	.boton-inscipcion{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	.boton-inscipcion a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #BF3A3E;
+		background-color: #faffd4;
+		border:none 0px #000000;
+		border-radius: 21px;
+		padding: 8px;
+	}
+
+	.texto3{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #faffd4;
+		font-size: 1.6em;
+		text-align: center;
+		margin-top: 12%;
+		margin-bottom: 22px;
+	}
+}
+
+/* 576 */
+/* 576 */
+/* 576 */
+/* 576 */
+/* 576 */
+/* 576 */
+/* 576 */
+
+@media (min-width: 576px) and (max-width: 767px){
+	body{
+		background-image: url(../img/pattern.jpg);
+	}
+
+	/*INDEX*/
+	/*INDEX*/
+	/*INDEX*/
+
+	.header{
+		grid-area: header;
+	}
+
+	.navbar{
+		grid-area: navbar;
+		background-color: #BF3A3E;
+	}
+
+	.aside{
+		grid-area: sidebar;
+	}
+
+	.main{
+		grid-area: main;
+		background-color: #faffd4;
+		background: url(../img/planta.png) no-repeat right bottom, url(../img/fondo-main.png);
+	}
+
+	.contenido{
+		grid-area: contenido;
+		background-color: #f7d794;
+	}
+
+	.footer{
+		grid-area: footer;
+		background-color: #43a1f5;
+	}
+
+	#grid_contenedor{ 
+		width: 100%;
+		display: grid;
+		gap: 5px;
+		grid-template-columns: 576px;
+		grid-template-rows: 150px 60px 300px 400px 300px 60px;
+		grid-template-areas: 
+		"header" 
+		"navbar" 
+		"main"
+		"sidebar" 
+		"contenido" 
+		"footer";
+
+	}
+
+	header{
+		background-image: url(../img/reflejo.png);
+		background-size: cover;
+	}
+
+	aside{
+		background-image: url(../img/lya.jpg);
+		background-size: cover;
+	}
+
+	section{
+		background-image: url(../img/fideos.jpg);
+		background-size: cover;
+	}
+
+
+	#nombre img{
+		display: block;
+		margin: auto;
+		width: 464px;
+		height: 130px;
+	}
+
+	#menu{
+		text-align: center;
+		padding-top: 18px;
+	}
+
+	#menu li{
+		display: inline;
+	}
+
+	#menu li a{
+		text-decoration: none;
+		padding: 10px;
+		margin-top: 10px;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+		color: #faffd4;
+	}
+
+	#menu a:hover{
+		border:none 0px #000000;
+		border-radius: 21px;
+		background-color: rgb(67, 161, 245, 0.9);
+	}
+
+	.titulo{
+		text-align: center;
+		padding-top: 8%;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	#clases{
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		padding-top: 33%;
+	}
+
+	#clases a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #BF3A3E;
+		background-color: #faffd4;
+		border:none 0px #000000;
+		border-radius: 21px;
+		font-size: 1.4em;
+		padding: 6px;
+	}
+
+	.titulo1{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		font-size: 2.8em;
+	}
+
+	.titulo2{
+		font-family: 'Montserrat', sans-serif;
+		color: #BF3A3E;
+		font-weight: bold;
+		font-size: 1.8em;
+	}
+
+	.copa{
+		text-align: center;
+		padding-top: 17%;
+	}
+
+	.texto1{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #faffd4;
+		font-size: 1.6em;
+	}
+
+	.texto2{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #faffd4;
+		font-size: 1.8em;
+	}
+
+	#boton{
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.5em;
+	}
+
+	#boton a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #BF3A3E;
+		background-color: #faffd4;
+		border:none 0px #000000;
+		border-radius: 21px;
+		padding: 6px;
+	}
+
+	.up{
+		border:none 0px #000000;
+		border-radius: 8px;
+		padding-top: 7px;
+		padding-left: 10px;
+		float: left;
+	}
+
+	#lucre{
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		font-size: 1.2em;
+		margin-top: 17px;
+	}
+
+	#lucre a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #faffd4;
+		padding: 5px;
+	}
+
+	#lucre a:hover{
+		border:none 0px #000000;
+		border-radius: 21px;
+		background-color: rgb(191, 58, 62);
+	}
+
+	#disney{
+		float: right;
+		margin-top: -5%;
+		margin-right: 10px;
+	}
+
+	/*CONTACTO*/
+	/*CONTACTO*/
+	/*CONTACTO*/
+
+	.header{
+		grid-area: header;
+	}
+
+	.navbar{
+		grid-area: navbar;
+		background-color: #BF3A3E;
+	}
+
+	.sidebar-contacto{
+		grid-area: sidebar-contacto;
+	}
+
+	.main-contacto{
+		grid-area: main-contacto;
+		background: no-repeat right top,url(../img/fondo-main.png);
+	}
+
+	.footer{
+		grid-area: footer;
+		background-color: #43a1f5;
+	}
+
+	#grid_contenedor2{
+		width: 100%;
+		display: grid;
+		gap: 5px;
+		grid-template-columns: 576px;
+		grid-template-rows: 150px 60px 300px 500px 60px;
+		grid-template-areas: 
+		"header" 
+		"navbar	" 
+		"main-contacto"
+		"sidebar-contacto"
+		"footer";
+
+	}
+
+	.titulo-contacto{
+		text-align: center;
+		padding-top: 11%;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	#formulario{
+		width: 480px;
+		margin: auto;
+		background: rgba(0, 0, 0, 0.4);
+		padding: 20px;
+		border:none 0px #000000;
+		border-radius: 20px;
+		padding: 10px 20px;
+		box-shadow: 14px 13px 11px 3px rgba(0,0,0,0.62);
+		margin-top: 60px;
+	}
+
+	.contacto{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #faffd4;
+		text-align: center;
+	}
+
+	.subtitulo{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #faffd4;
+		font-size: 1.2em;
+	}
+
+	.caja{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.caja2{
+		max-width: 100%;
+		min-height: 100px;
+		width: 100%;
+		height: 100px;
+		margin-bottom: 8px;
+	}
+
+	.caja3{
+		width: 67px;
+		padding: 3px;
+		display: block;
+		margin: auto;
+	}
+
+	.titulo1-contacto{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		font-size: 2.2em;
+	}
+
+	.titulo2-contacto{
+		font-family: 'Montserrat', sans-serif;
+		color: #BF3A3E;
+		font-weight: bold;
+		font-size: 1.5em;
+	}
+
+	/*CLASES*/
+	/*CLASES*/
+	/*CLASES*/
+
+	.header{
+		grid-area: header;
+	}
+
+	.navbar{
+		grid-area: navbar;
+		background-color: #BF3A3E;
+	}
+
+	.sidebar-clases{
+		grid-area: sidebar-clases;
+	}
+
+	.main-clases{
+		grid-area: main-clases;
+		background-image: url(../img/salto.jpg);
+		background-size: cover;
+	}
+
+	.footer{
+		grid-area: footer;
+		background-color: #43a1f5;
+	}
+
+	#grid_contenedor3{
+		width: 100%;
+		display: grid;
+		gap: 5px;
+		grid-template-columns: 576px;
+		grid-template-rows: 150px 60px 630px 60px;
+		grid-template-areas: 
+		"header" 
+		"navbar" 
+		"main-clases"
+		"footer";
+
+	}
+
+	.info{
+		width: 500px;
+		background: rgba(0, 0, 0, 0.4);
+		padding: 20px;
+		border:none 0px #000000;
+		border-radius: 20px;
+		box-shadow: 14px 13px 11px 3px rgba(0,0,0,0.62);
+		margin-top: 13%;
+		margin-left: 5%;
+	}
+
+	.staff{
+		font-family: 'Montserrat', sans-serif;
+		margin-top: 23%;
+		margin-right: 34%;
+	}
+
+	.staff a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #BF3A3E;
+		background-color: #faffd4;
+		border:none 0px #000000;
+		border-radius: 21px;
+		font-size: 1.4em;
+		padding: 8px;
+	}
+
+	/*STAFF*/
+	/*STAFF*/
+	/*STAFF*/
+
+	.header{
+		grid-area: header;
+	}
+
+	.navbar{
+		grid-area: navbar;
+		background-color: #BF3A3E;
+	}
+
+	.main-staff{
+		grid-area: main-staff;
+		background-color: #faffd4;
+	}
+
+	.widget-1{
+		grid-area: widget-1;
+		background-color: #ffeaa7;
+	}
+
+	.widget-2{
+		grid-area: widget-2;
+		background-color: #ffeaa7;
+	}
+
+	.widget-3{
+		grid-area: widget-3;
+		background-color: #ffeaa7;
+	}
+
+	.widget-4{
+		grid-area: widget-4;
+		background-color: #ffeaa7;
+	}
+
+	.contenido-plus{
+		grid-area: contenido-plus;
+		background-image: url(../img/copa-portorosso.png);
+		background-size: cover;
+	}
+
+	.footer{
+		grid-area: footer;
+		background-color: #43a1f5;
+	}
+
+	#grid_contenedor4{
+		width: 100%;
+		display: grid;
+		gap: 0px;
+		grid-template-columns: 576px;
+		grid-template-rows: 150px 60px 100px 410px 410px 410px 410px 300px 60px;
+		grid-template-areas: 
+		"header" 
+		"navbar" 
+		"main-staff"
+		"widget-1"
+		"widget-2"
+		"widget-3"
+		"widget-4"
+		"contenido-plus"
+		"footer";
+
+	}
+
+	.profes{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		color: #BF3A3E;
+		font-size: 1.8em;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+		margin-top: 5%;
+	}
+
+	.titulo-profe{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		color: #BF3A3E;
+		font-size: 1.2em;
+		margin-top: 22px;
+	}
+
+	.subtitulo-profe{
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		font-weight: bold;
+		color: #BF3A3E;
+		font-size: 1.1em;
+		margin-bottom: 20px;
+	}
+
+	.foto-profe{
+		display: block;
+		margin: auto;
+		border:none 0px #000000;
+		border-radius: 20px;
+		box-shadow: 14px 13px 11px 3px rgba(0,0,0,0.62);
+		width: 250px;
+		height: 250px;
+	}
+
+	.boton-inscipcion{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.3em;
+		text-align: center;
+	}
+
+	.boton-inscipcion a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #BF3A3E;
+		background-color: #faffd4;
+		border:none 0px #000000;
+		border-radius: 21px;
+		padding: 8px;
+	}
+
+	.texto3{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #faffd4;
+		font-size: 1.3em;
+		text-align: center;
+		margin-top: 18%;
+		margin-bottom: 22px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

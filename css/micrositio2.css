@@ -1,0 +1,1595 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Montserrat:wght@200&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(../img/pattern.jpg);
+}
+
+.header{
+	grid-area: header;
+}
+
+header{
+	background-image: url(../img/reflejo.png);
+	background-size: cover;
+}
+
+.navbar{
+	grid-area: navbar;
+	background-color: #BF3A3E;
+}
+
+.main{
+	grid-area: main;
+	background-color: #faffd4;
+}
+
+.footer{
+	grid-area: footer;
+	background-color: #43a1f5;
+}
+
+/*INDEX*/
+/*INDEX*/
+/*INDEX*/
+
+#grid_contenedor_micro{
+	width: 95%;
+	display: grid;
+	gap: 0px;
+	grid-template-columns: 400px 300px 700px;
+	grid-template-rows: 150px 60px 500px 60px;
+	grid-template-areas: 
+	"header		header		header" 
+	"navbar		navbar		navbar" 
+	"main		main		main"  
+	"footer		footer		footer";
+}
+
+#header-alberto{
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+	font-size: 3em;
+	margin-top: 2%;
+}
+
+#header-alberto a{
+	text-decoration: none;
+	color: #faffd4;
+	text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+}
+
+.nombre-alberto{
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+	font-size: 3em;
+	margin-top: 2%;
+	color: #faffd4;
+	text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+}
+
+#menu{
+	text-align: center;
+	padding-top: 20px;
+}
+
+#menu li{
+	display: inline;
+}
+
+#menu li a{
+	text-decoration: none;
+	padding: 10px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	color: #faffd4;
+}
+
+#menu a:hover{
+	border:none 0px #000000;
+	border-radius: 21px;
+	background-color: rgb(67, 161, 245, 0.9);
+}
+
+.yo{
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	color: #BF3A3E;
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 1.5%;}
+
+.prod{
+	font-size: 60px;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #BF3A3E;
+	text-align: center;
+	padding-bottom: 1.5%;
+	text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+}
+
+.nat{
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #BF3A3E;
+	text-align: center;
+}
+
+.up{
+	border:none 0px #000000;
+	border-radius: 8px;
+	padding-top: 7px;
+	padding-left: 10px;
+	float: left;
+}
+
+#pie{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 1.2em;
+	padding-top: 18px;
+}
+#pie a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #faffd4;
+}
+
+#pie a:hover{
+	border:none 0px #000000;
+	border-radius: 21px;
+	background-color: rgb(191, 58, 62);
+}
+
+/*PERSONAJE*/
+/*PERSONAJE*/
+/*PERSONAJE*/
+
+#grid_contenedor_micro2{
+	width: 95%;
+	display: grid;
+	gap: 0px;
+	grid-template-columns: 400px 300px 700px;
+	grid-template-rows: 150px 60px auto 60px;
+	grid-template-areas: 
+	"header		header		header" 
+	"navbar		navbar		navbar" 
+	"main		main		main"  
+	"footer		footer		footer";
+}
+
+.titulo-personaje{
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #BF3A3E;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.presentacion-personaje{
+	padding-left: 40%;
+}
+
+.titulo-presentacion{
+	color: #BF3A3E;
+	font-size: 1.3em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+
+/*DISENO*/
+/*DISENO*/
+/*DISENO*/
+
+#grid_contenedor_micro3{
+	width: 95%;
+	display: grid;
+	gap: 0px;
+	grid-template-columns: 400px 300px 700px;
+	grid-template-rows: 150px 60px auto 60px;
+	grid-template-areas: 
+	"header		header		header" 
+	"navbar		navbar		navbar" 
+	"main		main		main"  
+	"footer		footer		footer";
+}
+
+.titulo-elecciones{
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #BF3A3E;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.tipografia_uno{
+	width: 95%;
+	font-size: 18px;
+	color: #333333;
+	padding-left: 3%;
+	text-align: center;
+}
+
+.tipografia_uno h2{
+	font-size: 21px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.tipografia_uno p{
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.tipografia_dos{
+	width: 95%;
+	font-size: 18px;
+	color: #333333;
+	padding-left: 3%;
+	text-align: center;
+}
+
+.tipografia_dos h2{
+	font-size: 21px;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.tipografia_dos p{
+	font-size: 18px;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+#colores{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#colores li{
+	display: inline;
+	padding: 5px;
+}
+
+.color1{
+	width: 100px;
+	height: 100px;
+}
+
+.color2{
+	width: 100px;
+	height: 100px;
+}
+
+.color3{
+	width: 100px;
+	height: 100px;
+}
+
+.color4{
+	width: 100px;
+	height: 100px;
+}
+
+/*WEB*/
+/*WEB*/
+/*WEB*/
+
+#grid_contenedor_micro3{
+	width: 95%;
+	display: grid;
+	gap: 0px;
+	grid-template-columns: 400px 300px 700px;
+	grid-template-rows: 150px 60px auto 60px;
+	grid-template-areas: 
+	"header		header		header" 
+	"navbar		navbar		navbar" 
+	"main		main		main"  
+	"footer		footer		footer";
+}
+
+.titulo-diseno{
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #BF3A3E;
+	text-align: center;
+	padding-top: 30px;
+}
+
+iframe{
+	width: 70%;
+	height: 80vh;
+	margin-bottom: 70px;
+	margin-top: 50px;
+	margin-left: 16%;
+}
+
+/*1200*/
+/*1200*/
+/*1200*/
+/*1200*/
+/*1200*/
+/*1200*/
+/*1200*/
+/*1200*/
+
+@media(min-width: 1200px) and (max-width: 1399px){
+		body{
+		background-image: url(../img/pattern.jpg);
+	}
+
+	.header{
+		grid-area: header;
+	}
+
+	header{
+		background-image: url(../img/reflejo.png);
+		background-size: cover;
+	}
+
+	.navbar{
+		grid-area: navbar;
+		background-color: #BF3A3E;
+	}
+
+	.main{
+		grid-area: main;
+		background-color: #faffd4;
+	}	
+
+	.footer{
+		grid-area: footer;
+		background-color: #43a1f5;
+	}
+
+	/*INDEX*/
+	/*INDEX*/
+	/*INDEX*/
+
+	#grid_contenedor_micro{
+		width: 95%;
+		display: grid;
+		gap: 0px;
+		grid-template-columns: 400px 400px 400px;
+		grid-template-rows: 150px 60px 500px 60px;
+		grid-template-areas: 
+		"header		header		header" 
+		"navbar		navbar		navbar" 
+		"main		main		main"  
+		"footer		footer		footer";
+	}
+
+	#header-alberto{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		font-size: 3em;
+		margin-top: 2%;
+	}
+
+	#header-alberto a{
+		text-decoration: none;
+		color: #faffd4;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	.nombre-alberto{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		font-size: 3em;
+		margin-top: 2%;
+		color: #faffd4;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	#menu{
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	#menu li{
+		display: inline;
+	}
+
+	#menu li a{
+		text-decoration: none;
+		padding: 10px;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+		color: #faffd4;
+	}
+
+	#menu a:hover{
+		border:none 0px #000000;
+		border-radius: 21px;
+		background-color: rgb(67, 161, 245, 0.9);
+	}
+
+	.yo{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 150px;
+		padding-bottom: 1.5%;}
+
+	.prod{
+		font-size: 60px;
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-bottom: 1.5%;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	.nat{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #BF3A3E;
+		text-align: center;
+	}
+
+	.up{
+		border:none 0px #000000;
+		border-radius: 8px;
+		padding-top: 7px;
+		padding-left: 10px;
+		float: left;
+	}
+
+	#pie{
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		font-size: 1.2em;
+		padding-top: 18px;
+	}
+	#pie a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #faffd4;
+	}
+
+	#pie a:hover{
+		border:none 0px #000000;
+		border-radius: 21px;
+		background-color: rgb(191, 58, 62);
+	}
+
+	/*PERSONAJE*/
+	/*PERSONAJE*/
+	/*PERSONAJE*/
+
+	#grid_contenedor_micro2{
+		width: 95%;
+		display: grid;
+		gap: 0px;
+		grid-template-columns: 400px 400px 400px;
+		grid-template-rows: 150px 60px auto 60px;
+		grid-template-areas: 
+		"header		header		header" 
+		"navbar		navbar		navbar" 
+		"main		main		main"  
+		"footer		footer		footer";
+	}
+
+	.titulo-personaje{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.presentacion-personaje{
+		padding-left: 40%;
+	}
+
+	.titulo-presentacion{
+		color: #BF3A3E;
+		font-size: 1.3em;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		text-align: center;
+		padding-bottom: 50px;
+		padding-top: 20px;
+	}
+
+	/*DISENO*/
+	/*DISENO*/
+	/*DISENO*/
+
+	#grid_contenedor_micro3{
+		width: 95%;
+		display: grid;
+		gap: 0px;
+		grid-template-columns: 400px 400px 400px;
+		grid-template-rows: 150px 60px auto 60px;
+		grid-template-areas: 
+		"header		header		header" 
+		"navbar		navbar		navbar" 
+		"main		main		main"  
+		"footer		footer		footer";
+	}
+
+	.titulo-elecciones{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	.tipografia_uno{
+		width: 95%;
+		font-size: 18px;
+		color: #333333;
+		padding-left: 3%;
+		text-align: center;
+	}
+
+	.tipografia_uno h2{
+		font-size: 21px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.tipografia_uno p{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.tipografia_dos{
+		width: 95%;
+		font-size: 18px;
+		color: #333333;
+		padding-left: 3%;
+		text-align: center;
+	}
+
+	.tipografia_dos h2{
+		font-size: 21px;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	.tipografia_dos p{
+		font-size: 18px;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	#colores{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	#colores li{
+		display: inline;
+		padding: 5px;
+	}
+
+	.color1{
+		width: 100px;
+		height: 100px;
+	}
+
+	.color2{
+		width: 100px;
+		height: 100px;
+	}
+
+	.color3{
+		width: 100px;
+		height: 100px;
+	}
+
+	.color4{
+		width: 100px;
+		height: 100px;
+	}
+
+	/*WEB*/
+	/*WEB*/
+	/*WEB*/
+
+	#grid_contenedor_micro3{
+		width: 95%;
+		display: grid;
+		gap: 0px;
+		grid-template-columns: 400px 400px 400px;
+		grid-template-rows: 150px 60px auto 60px;
+		grid-template-areas: 
+		"header		header		header" 
+		"navbar		navbar		navbar" 
+		"main		main		main"  
+		"footer		footer		footer";
+	}
+
+	.titulo-diseno{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	iframe{
+		width: 70%;
+		height: 80vh;
+		margin-bottom: 70px;
+		margin-top: 50px;
+		margin-left: 13%;
+	}
+}
+
+/*992*/
+/*992*/
+/*992*/
+/*992*/
+/*992*/
+/*992*/
+/*992*/
+/*992*/
+
+@media(min-width: 992px) and (max-width: 1199px){
+	body{
+		background-image: url(../img/pattern.jpg);
+	}
+
+	.header{
+		grid-area: header;
+	}
+
+	header{
+		background-image: url(../img/reflejo.png);
+		background-size: cover;
+	}
+
+	.navbar{
+		grid-area: navbar;
+		background-color: #BF3A3E;
+	}
+
+	.main{
+		grid-area: main;
+		background-color: #faffd4;
+	}	
+
+	.footer{
+		grid-area: footer;
+		background-color: #43a1f5;
+	}
+
+	/*INDEX*/
+	/*INDEX*/
+	/*INDEX*/
+
+	#grid_contenedor_micro{
+		width: 95%;
+		display: grid;
+		gap: 0px;
+		grid-template-columns: 330px 330px 330px;
+		grid-template-rows: 150px 60px 500px 60px;
+		grid-template-areas: 
+		"header		header		header" 
+		"navbar		navbar		navbar" 
+		"main		main		main"  
+		"footer		footer		footer";
+	}
+
+	#header-alberto{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		font-size: 3em;
+		margin-top: 2%;
+	}
+
+	#header-alberto a{
+		text-decoration: none;
+		color: #faffd4;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	.nombre-alberto{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		font-size: 3em;
+		margin-top: 2%;
+		color: #faffd4;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	#menu{
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	#menu li{
+		display: inline;
+	}
+
+	#menu li a{
+		text-decoration: none;
+		padding: 10px;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+		color: #faffd4;
+	}
+
+	#menu a:hover{
+		border:none 0px #000000;
+		border-radius: 21px;
+		background-color: rgb(67, 161, 245, 0.9);
+	}
+
+	.yo{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 150px;
+		padding-bottom: 1.5%;}
+
+	.prod{
+		font-size: 60px;
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-bottom: 1.5%;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	.nat{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #BF3A3E;
+		text-align: center;
+	}
+
+	.up{
+		border:none 0px #000000;
+		border-radius: 8px;
+		padding-top: 7px;
+		padding-left: 10px;
+		float: left;
+	}
+
+	#pie{
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		font-size: 1.2em;
+		padding-top: 18px;
+	}
+	#pie a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #faffd4;
+	}
+
+	#pie a:hover{
+		border:none 0px #000000;
+		border-radius: 21px;
+		background-color: rgb(191, 58, 62);
+	}
+
+	/*PERSONAJE*/
+	/*PERSONAJE*/
+	/*PERSONAJE*/
+
+	#grid_contenedor_micro2{
+		width: 95%;
+		display: grid;
+		gap: 0px;
+		grid-template-columns: 330px 330px 330px;
+		grid-template-rows: 150px 60px auto 60px;
+		grid-template-areas: 
+		"header		header		header" 
+		"navbar		navbar		navbar" 
+		"main		main		main"  
+		"footer		footer		footer";
+	}
+
+	.titulo-personaje{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.presentacion-personaje{
+		padding-left: 36%;
+	}
+
+	.titulo-presentacion{
+		color: #BF3A3E;
+		font-size: 1.3em;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		text-align: center;
+		padding-bottom: 50px;
+		padding-top: 20px;
+	}
+
+	/*DISENO*/
+	/*DISENO*/
+	/*DISENO*/
+
+	#grid_contenedor_micro3{
+		width: 95%;
+		display: grid;
+		gap: 0px;
+		grid-template-columns: 330px 330px 330px;
+		grid-template-rows: 150px 60px auto 60px;
+		grid-template-areas: 
+		"header		header		header" 
+		"navbar		navbar		navbar" 
+		"main		main		main"  
+		"footer		footer		footer";
+	}
+
+	.titulo-elecciones{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	.tipografia_uno{
+		width: 95%;
+		font-size: 18px;
+		color: #333333;
+		padding-left: 3%;
+		text-align: center;
+	}
+
+	.tipografia_uno h2{
+		font-size: 21px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.tipografia_uno p{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.tipografia_dos{
+		width: 95%;
+		font-size: 18px;
+		color: #333333;
+		padding-left: 3%;
+		text-align: center;
+	}
+
+	.tipografia_dos h2{
+		font-size: 21px;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	.tipografia_dos p{
+		font-size: 18px;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	#colores{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	#colores li{
+		display: inline;
+		padding: 5px;
+	}
+
+	.color1{
+		width: 100px;
+		height: 100px;
+	}
+
+	.color2{
+		width: 100px;
+		height: 100px;
+	}
+
+	.color3{
+		width: 100px;
+		height: 100px;
+	}
+
+	.color4{
+		width: 100px;
+		height: 100px;
+	}
+
+	/*WEB*/
+	/*WEB*/
+	/*WEB*/
+
+	#grid_contenedor_micro3{
+		width: 95%;
+		display: grid;
+		gap: 0px;
+		grid-template-columns: 330px 330px 330px;
+		grid-template-rows: 150px 60px auto 60px;
+		grid-template-areas: 
+		"header		header		header" 
+		"navbar		navbar		navbar" 
+		"main		main		main"  
+		"footer		footer		footer";
+	}
+
+	.titulo-diseno{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	iframe{
+		width: 65%;
+		height: 60vh;
+		margin-bottom: 70px;
+		margin-top: 50px;
+		margin-left: 18%;
+	}
+}
+
+/*768*/
+/*768*/
+/*768*/
+/*768*/
+/*768*/
+/*768*/
+/*768*/
+/*768*/
+
+@media(min-width: 768px) and (max-width: 991px){
+	body{
+		background-image: url(../img/pattern.jpg);
+	}
+
+	.header{
+		grid-area: header;
+	}
+
+	header{
+		background-image: url(../img/reflejo.png);
+		background-size: cover;
+	}
+
+	.navbar{
+		grid-area: navbar;
+		background-color: #BF3A3E;
+	}
+
+	.main{
+		grid-area: main;
+		background-color: #faffd4;
+	}	
+
+	.footer{
+		grid-area: footer;
+		background-color: #43a1f5;
+	}
+
+	/*INDEX*/
+	/*INDEX*/
+	/*INDEX*/
+
+	#grid_contenedor_micro{
+		width: 95%;
+		display: grid;
+		gap: 0px;
+		grid-template-columns: 384px 384px;
+		grid-template-rows: 150px 60px 500px 60px;
+		grid-template-areas: 
+		"header		header" 
+		"navbar		navbar" 
+		"main		main"  
+		"footer		footer";
+	}
+
+	#header-alberto{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		font-size: 3em;
+		margin-top: 2%;
+	}
+
+	#header-alberto a{
+		text-decoration: none;
+		color: #faffd4;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	.nombre-alberto{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		font-size: 3em;
+		margin-top: 2%;
+		color: #faffd4;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	#menu{
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	#menu li{
+		display: inline;
+	}
+
+	#menu li a{
+		text-decoration: none;
+		padding: 10px;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+		color: #faffd4;
+	}
+
+	#menu a:hover{
+		border:none 0px #000000;
+		border-radius: 21px;
+		background-color: rgb(67, 161, 245, 0.9);
+	}
+
+	.yo{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 150px;
+		padding-bottom: 1.5%;}
+
+	.prod{
+		font-size: 50px;
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-bottom: 1.5%;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	.nat{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #BF3A3E;
+		text-align: center;
+	}
+
+	.up{
+		border:none 0px #000000;
+		border-radius: 8px;
+		padding-top: 7px;
+		padding-left: 10px;
+		float: left;
+	}
+
+	#pie{
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		font-size: 1.2em;
+		padding-top: 18px;
+	}
+	#pie a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #faffd4;
+	}
+
+	#pie a:hover{
+		border:none 0px #000000;
+		border-radius: 21px;
+		background-color: rgb(191, 58, 62);
+	}
+
+	/*PERSONAJE*/
+	/*PERSONAJE*/
+	/*PERSONAJE*/
+
+	#grid_contenedor_micro2{
+		width: 95%;
+		display: grid;
+		gap: 0px;
+		grid-template-columns: 384px 384px;
+		grid-template-rows: 150px 60px auto 60px;
+		grid-template-areas: 
+		"header		header" 
+		"navbar		navbar" 
+		"main		main"  
+		"footer		footer";
+	}
+
+	.titulo-personaje{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.presentacion-personaje{
+		padding-left: 30%;
+	}
+
+	.titulo-presentacion{
+		color: #BF3A3E;
+		font-size: 1.3em;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		text-align: center;
+		padding-bottom: 50px;
+		padding-top: 20px;
+	}
+
+	/*DISENO*/
+	/*DISENO*/
+	/*DISENO*/
+
+	#grid_contenedor_micro3{
+		width: 95%;
+		display: grid;
+		gap: 0px;
+		grid-template-columns: 384px 384px;
+		grid-template-rows: 150px 60px auto 60px;
+		grid-template-areas: 
+		"header		header" 
+		"navbar		navbar" 
+		"main		main"  
+		"footer		footer";
+	}
+
+	.titulo-elecciones{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	.tipografia_uno{
+		width: 95%;
+		font-size: 18px;
+		color: #333333;
+		padding-left: 3%;
+		text-align: center;
+	}
+
+	.tipografia_uno h2{
+		font-size: 21px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.tipografia_uno p{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.tipografia_dos{
+		width: 95%;
+		font-size: 18px;
+		color: #333333;
+		padding-left: 3%;
+		text-align: center;
+	}
+
+	.tipografia_dos h2{
+		font-size: 21px;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	.tipografia_dos p{
+		font-size: 18px;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	#colores{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	#colores li{
+		display: inline;
+		padding: 30px;
+	}
+
+	.color1{
+		width: 100px;
+		height: 100px;
+	}
+
+	.color2{
+		width: 100px;
+		height: 100px;
+	}
+
+	.color3{
+		width: 100px;
+		height: 100px;
+	}
+
+	.color4{
+		width: 100px;
+		height: 100px;
+	}
+
+	/*WEB*/
+	/*WEB*/
+	/*WEB*/
+
+	#grid_contenedor_micro3{
+		width: 95%;
+		display: grid;
+		gap: 0px;
+		grid-template-columns: 384px 384px;
+		grid-template-rows: 150px 60px auto 60px;
+		grid-template-areas: 
+		"header		header" 
+		"navbar		navbar" 
+		"main		main"  
+		"footer		footer";
+	}
+
+	.titulo-diseno{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	iframe{
+		width: 85%;
+		height: 60vh;
+		margin-bottom: 70px;
+		margin-top: 50px;
+		margin-left: 8%;
+	}
+}
+
+/*576*/
+/*576*/
+/*576*/
+/*576*/
+/*576*/
+/*576*/
+/*576*/
+/*576*/
+
+@media(min-width: 576px) and (max-width: 767px){
+	body{
+		background-image: url(../img/pattern.jpg);
+	}
+
+	.header{
+		grid-area: header;
+	}
+
+	header{
+		background-image: url(../img/reflejo.png);
+		background-size: cover;
+	}
+
+	.navbar{
+		grid-area: navbar;
+		background-color: #BF3A3E;
+	}
+
+	.main{
+		grid-area: main;
+		background-color: #faffd4;
+	}	
+
+	.footer{
+		grid-area: footer;
+		background-color: #43a1f5;
+	}
+
+	/*INDEX*/
+	/*INDEX*/
+	/*INDEX*/
+
+	#grid_contenedor_micro{
+		width: 95%;
+		display: grid;
+		gap: 0px;
+		grid-template-columns: 576px;
+		grid-template-rows: 150px 60px 500px 60px;
+		grid-template-areas: 
+		"header" 
+		"navbar" 
+		"main"  
+		"footer";
+	}
+
+	#header-alberto{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		font-size: 3em;
+		margin-top: 2%;
+	}
+
+	#header-alberto a{
+		text-decoration: none;
+		color: #faffd4;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	.nombre-alberto{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		font-size: 3em;
+		margin-top: 2%;
+		color: #faffd4;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	#menu{
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	#menu li{
+		display: inline;
+	}
+
+	#menu li a{
+		text-decoration: none;
+		padding: 10px;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+		color: #faffd4;
+	}
+
+	#menu a:hover{
+		border:none 0px #000000;
+		border-radius: 21px;
+		background-color: rgb(67, 161, 245, 0.9);
+	}
+
+	.yo{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 150px;
+		padding-bottom: 1.5%;}
+
+	.prod{
+		font-size: 43px;
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-bottom: 1.5%;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	.nat{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #BF3A3E;
+		text-align: center;
+	}
+
+	.up{
+		border:none 0px #000000;
+		border-radius: 8px;
+		padding-top: 7px;
+		padding-left: 10px;
+		float: left;
+	}
+
+	#pie{
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		font-size: 1.2em;
+		padding-top: 18px;
+	}
+	#pie a{
+		text-decoration: none;
+		font-weight: bold;
+		color: #faffd4;
+	}
+
+	#pie a:hover{
+		border:none 0px #000000;
+		border-radius: 21px;
+		background-color: rgb(191, 58, 62);
+	}
+
+	/*PERSONAJE*/
+	/*PERSONAJE*/
+	/*PERSONAJE*/
+
+	#grid_contenedor_micro2{
+		width: 95%;
+		display: grid;
+		gap: 0px;
+		grid-template-columns: 576px;
+		grid-template-rows: 150px 60px auto 60px;
+		grid-template-areas: 
+		"header" 
+		"navbar" 
+		"main"  
+		"footer";
+	}
+
+	.titulo-personaje{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.presentacion-personaje{
+		padding-left: 6%;
+	}
+
+	.tamano-alberto{
+		width: 500px;
+		height: 500px;
+	}
+
+	.titulo-presentacion{
+		color: #BF3A3E;
+		font-size: 1.3em;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		text-align: center;
+		padding-bottom: 50px;
+		padding-top: 20px;
+	}
+
+	/*DISENO*/
+	/*DISENO*/
+	/*DISENO*/
+
+	#grid_contenedor_micro3{
+		width: 95%;
+		display: grid;
+		gap: 0px;
+		grid-template-columns: 576px;
+		grid-template-rows: 150px 60px auto 60px;
+		grid-template-areas: 
+		"header" 
+		"navbar" 
+		"main"  
+		"footer";
+	}
+
+	.titulo-elecciones{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	.tipografia_uno{
+		width: 95%;
+		font-size: 18px;
+		color: #333333;
+		padding-left: 3%;
+		text-align: center;
+	}
+
+	.tipografia_uno h2{
+		font-size: 21px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.tipografia_uno p{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.tipografia_dos{
+		width: 95%;
+		font-size: 18px;
+		color: #333333;
+		padding-left: 3%;
+		text-align: center;
+	}
+
+	.tipografia_dos h2{
+		font-size: 21px;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	.tipografia_dos p{
+		font-size: 18px;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	#colores{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	#colores li{
+		display: inline;
+		padding: 47px;
+	}
+
+	.color1{
+		width: 100px;
+		height: 100px;
+	}
+
+	.color2{
+		width: 100px;
+		height: 100px;
+	}
+
+	.color3{
+		width: 100px;
+		height: 100px;
+	}
+
+	.color4{
+		width: 100px;
+		height: 100px;
+	}
+
+	/*WEB*/
+	/*WEB*/
+	/*WEB*/
+
+	#grid_contenedor_micro3{
+		width: 95%;
+		display: grid;
+		gap: 0px;
+		grid-template-columns: 576px;
+		grid-template-rows: 150px 60px auto 60px;
+		grid-template-areas: 
+		"header" 
+		"navbar" 
+		"main"  
+		"footer";
+	}
+
+	.titulo-diseno{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	iframe{
+		width: 95%;
+		height: 90vh;
+		margin-bottom: 70px;
+		margin-top: 50px;
+		margin-left: 2%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
